@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ご予約 | キャンプサイト</title>
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="header-container w-container">
+      <h1 class="logo">
+        <a href="index.html">
+          <img src="img/logo.png" alt="ロゴ" />
+        </a>
+      </h1>
+      <nav class="navi">
+        <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="#">プラン</a></li>
+          <li><a href="#">施設紹介</a></li>
+          <li><a href="#">アクセス</a></li>
+          <li><a href="reservation.html">ご予約</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="reservation w-container">
+    <h1>ご予約フォーム</h1>
+    <p>以下のフォームに必要事項をご入力ください。</p>
+    <form class="reservation-form">
+      <label>お名前
+        <input type="text" name="name" required />
+      </label>
+
+      <label>メールアドレス
+        <input type="email" name="email" required />
+      </label>
+
+      <label>ご利用プラン
+        <select name="plan" required>
+          <option value="">選択してください</option>
+          <option value="day">デイキャンプ</option>
+          <option value="auto">オートキャンプ</option>
+        </select>
+      </label>
+
+      <label>ご利用日
+        <input type="date" name="date" required />
+      </label>
+
+      <label>人数
+        <input type="number" name="number" min="1" required />
+      </label>
+
+    <a href="" class="btn">送信する</button></a>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <div class="w-container">
+      <p class="footer-text">© 2025 Forest Village. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
