@@ -96,7 +96,7 @@ header {
 .parallax{
 	margin-top: 200px;
     height: 600px;
-    background-image: url(../img/aaa.jpeg);
+    background-image: url('https://sirotume-tokki.github.io/aaa3/aaa.jpeg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
